@@ -1,0 +1,155 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<title>HTML | Home</title>
+<meta charset ="utf-8">
+</head>
+
+<body>
+<div id="wrapper">
+<header><img src="bilder/logo.ping" alt="Logo"></header>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="über.html">Über</a></li>
+<li><a href="kontakt.html">Kontakt</a></li>
+</ul>
+
+
+</nav>
+<section>
+<div class="article">
+<img src="bilder/vorschau.png" alt="Vorschau">
+<a herf="#"> Das ist der Titel von diesem Beitrag.</a>
+<p>Ein Wiki, seltener auch WikiWiki oder WikiWeb genannt, ist eine Website, deren Inhalte von den Besuchern nicht nur gelesen, sondern auch direkt im Webbrowser bearbeitet und geändert werden können.</p>
+<div class="article">
+<img src="bilder/vorschau.png" alt="Vorschau">
+<a herf="#"> Das ist der Titel von diesem Beitrag.</a>
+<p>Ein Wiki, seltener auch WikiWiki oder WikiWeb genannt, ist eine Website, deren Inhalte von den Besuchern nicht nur gelesen, sondern auch direkt im Webbrowser bearbeitet und geändert werden können.</p>
+<div class="article">
+<img src="bilder/vorschau.png" alt="Vorschau">
+<a herf="#"> Das ist der Titel von diesem Beitrag.</a>
+<p>Ein Wiki, seltener auch WikiWiki oder WikiWeb genannt, ist eine Website, deren Inhalte von den Besuchern nicht nur gelesen, sondern auch direkt im Webbrowser bearbeitet und geändert werden können.</p>
+
+</div>
+</section>
+<aside>
+<div class="sidebar">
+<img src="bilder/sidebar.png" alt="Sidebar">
+<a herf="#">Das ist die Seidebar</a>
+<p>Aus dem Englischen übersetzt-Wiki-Software ist eine kollaborative Software, die ein Wiki ausführt, mit dem Benutzer Seiten oder Einträge über einen Webbrowser erstellen.</p>
+
+</div>
+
+</aside>
+<footer>Das ist die Fusszeile</footer>
+</div>
+</body>
+
+</html>
+
+#wrapper {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family:arial, sans-serif;
+	font-size: 16px;
+}
+body {
+	background-color: #EDEBE8;
+	
+	
+	
+}
+a{
+	color: #777;
+	text-decoration: 40px;
+}
+
+
+
+header{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 50px;
+	text-align: center;
+}
+nav {
+	text-align: center;
+}
+nav ul {
+	list-style-type: none;
+}
+nav li {
+	display: inline;
+	margin-right: 40px;
+	
+}
+.articel a {
+	font-size: 18px;
+	
+}
+section {
+	width: 603px;
+	float: left;
+	padding: 15px;
+	margin-right: 15px;
+	margin-top: 15px;
+	background-color: #F2F2F2;
+	border: 1px solid #DEDCD9;
+	border-radius: 5px;
+	margin-bottom: 60px;
+	height: 310px;
+	
+}
+.article{
+	height: 150px;
+	margin-top: 15px;
+	margin-bottom: 50px;
+}
+.article img{
+	float: left;
+	margin-right: 10px;
+	border: 1px solid #DEDCD9;
+}
+.artical a {
+	font-size: 18px;
+}
+
+a {
+	color: #777;
+	text-decoration: none;
+}
+aside {
+	width: 258px;
+	float: right;
+	padding: 25px; 
+	margin-top: 15px;
+	background-color: #F2F2F2;
+	border: 1px solide #DEDCD9;
+	border-radius: 5px;
+}
+.sidebar img {
+	
+	padding: 5px;
+	margin-top: 15px;
+	border: 1px solide #DEDCD9;
+	
+}
+
+.sidebar a {
+	font-size: 18px;
+	padding: 5px;
+}
+.sidebar p {
+	padding. 5px;
+}
+
+footer{
+	background-color: #F2F2F2;
+	border: 1px solide #DEDCD9;
+	border-radius: 5px;
+	clear: both;
+	height: 50px;
+}
